@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive About Us</title>
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.8.9/build/spline-viewer.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="#" class="brand">ARIA</a>
+    <ul class="nav-links">
+        <li class="nav-item">
+            <a href="#features">Features <span class="dropdown-indicator">▾</span></a>
+        </li>
+        <li class="nav-item">
+            <a href="#resources">Resources <span class="dropdown-indicator">▾</span></a>
+        </li>
+        <li class="nav-item">
+            <a href="#pricing">Pricing</a>
+        </li>
+        <li class="nav-item">
+            <a href="#signup" class="signup-btn">Signup</a>
+        </li>
+    </ul>
+    <div class="mobile-menu">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</nav>
+    <!-- Hero Section with Spline -->
+    <section class="hero-section">
+        <spline-viewer class="background" url="https://prod.spline.design/4wQ6MTWCjAIJZNhq/scene.splinecode"></spline-viewer>
+        <div class="scroll-indicator">
+            <div>Scroll Down</div>
+            <div class="arrow">↓</div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <!-- Added background spline -->
+        <div class="about-background">
+            <spline-viewer url="https://prod.spline.design/uhTquNqLq2n6hBQl/scene.splinecode"></spline-viewer>
+        </div>
+
+        <div class="about-container">
+            <div class="header">
+                <h1>About Us</h1>
+                <div class="header-line"></div>
+            </div>
+
+            <div class="content-grid">
+                <div class="about-text">
+                    <h2>Our Story</h2>
+                    <p>
+                        We're pioneering the future of digital innovation. Our team combines cutting-edge 
+                        technology with creative excellence to deliver extraordinary experiences that push 
+                        the boundaries of what's possible.
+                    </p>
+                    <p>
+                        From concept to creation, we transform ideas into immersive digital realities that 
+                        captivate and inspire.
+                    </p>
+                    <a href="#contact" class="cta-button">Get in Touch</a>
+
+                   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="page-wrapper">
+        <div class="spline-container">
+            <spline-viewer url="https://prod.spline.design/n1MFv4mBLJeRM7cH/scene.splinecode"></spline-viewer>
+        </div>
+        
+        <section class="features-section">
+            <div class="features-container">
+                <div class="features-text">
+                    <div class="features-label">Features</div>
+                    <h2 class="features-heading">The blocks of a powerful platform</h2>
+                    <p class="features-description">Our sales team will get in touch to better understand your needs, and either help you with the sign-up process</p>
+                    <a href="#" class="start-button">Start for free</a>
+                </div>
+
+                <div class="features-cards" id="features-cards">
+                    <!-- Features cards will be inserted here by JavaScript -->
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="fullscreen-section">
+        <div class="container">
+          <div class="heading">
+            Makers Studio HOI
+            <div class="hover-image-container">
+              <img src="https://img.freepik.com/free-photo/young-character-nature_23-2151880344.jpg" class="hover-image" alt="Hover Image">
+            </div>
+          </div>
+          <div class="heading">
+            50th Anniversary
+            <div class="hover-image-container">
+              <img src="https://img.freepik.com/premium-photo/cute-retro-robot-with-laptop_1137978-30265.jpg" class="hover-image" alt="Hover Image">
+            </div>
+          </div>
+          <div class="heading">
+            NYFW Popup
+            <div class="hover-image-container">
+              <img src="https://img.freepik.com/free-photo/3d-woman-shape-glowing-with-bright-holographic-colors_23-2151037193.jpg?t=st=1731649223~exp=1731652823~hmac=a360108484e587e3d1cc8c900cfd6b76931085ba01df005900a234eacac0f714&w=360" class="hover-image" alt="Hover Image">
+            </div>
+          </div>
+          <div class="heading">
+            Air Force
+            <div class="hover-image-container">
+              <img src="https://img.freepik.com/free-photo/beautiful-flamingos-lake_23-2150536828.jpg?t=st=1731650704~exp=1731654304~hmac=87a57a64db536b338ff02e6440eace845dd922c617636960d440f8eefe062e45&w=1060" class="hover-image" alt="Hover Image">
+            </div>
+          </div>
+          <div class="heading">
+            Play New Effect
+            <div class="hover-image-container">
+              <img src="https://img.freepik.com/free-photo/3d-rendering-space-planets-illustration_23-2151874975.jpg?uid=R130410672&ga=GA1.1.2131563182.1708685088" class="hover-image" alt="Hover Image">
+            </div>
+          </div>
+          
+        </div>
+      </section>
+      
+      <section class="carousel-section">
+        <div class="carousel-container">
+          <div class="carousel">
+            <div class="slide">
+              <img src="https://img.freepik.com/premium-photo/robot-industrial-engine-mechanical-arm-technology-works-humans_33807-523.jpg?w=900" alt="Scene 1" />
+              <div class="slide-overlay">Nature Scene 1</div>
+            </div>
+            <div class="slide">
+              <img src="https://img.freepik.com/free-psd/set-colorful-font-made-shape-sweet-candy-created-using-generative-ai-technology_250435-1894.jpg?t=st=1731662579~exp=1731666179~hmac=fb95a7ffa2e58c26350a4df2c6c1a6aa531b59da4bcec7d29d8fdf1996edea33&w=1060" alt="Scene 2" />
+              <div class="slide-overlay">Nature Scene 2</div>
+            </div>
+            <div class="slide">
+              <img src="https://img.freepik.com/free-photo/futuristic-hand-working-laptop_23-2151003688.jpg?t=st=1731662677~exp=1731666277~hmac=ebf4cea2acfd0abbc16214fef97c8c960f8a6150cacfc8b75983906bc315a045&w=900" alt="Scene 3" />
+              <div class="slide-overlay">Nature Scene 3</div>
+            </div>
+            <div class="slide">
+              <img src="https://img.freepik.com/premium-photo/empty-studio-gradient-background-display-product_1028938-358942.jpg?w=740" alt="Scene 4" />
+              <div class="slide-overlay">Nature Scene 4</div>
+            </div>
+            <div class="slide">
+              <img src="https://img.freepik.com/premium-photo/8k-cartoon-character-illustration-colorful-vibrant-playful_1135385-183066.jpg?w=1060" alt="Scene 5" />
+              <div class="slide-overlay">Nature Scene 5</div>
+            </div>
+            <div class="slide">
+              <img src="https://img.freepik.com/free-photo/3d-graph-computer-illustration_23-2151884860.jpg?t=st=1731662882~exp=1731666482~hmac=5844ab118742bc524f565affb7cb414e2391f08aaeef16ff0403a03ec3551ce8&w=1060" alt="Scene 6" />
+              <div class="slide-overlay">Nature Scene 6</div>
+            </div>
+            <div class="slide">
+              <img src="https://img.freepik.com/free-photo/3d-graph-computer-illustration_23-2151884860.jpg?t=st=1731662882~exp=1731666482~hmac=5844ab118742bc524f565affb7cb414e2391f08aaeef16ff0403a03ec3551ce8&w=1060" alt="Scene 7" />
+              <div class="slide-overlay">Nature Scene 7</div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="title-container">
+          <h1 class="title">
+            <span>I</span>
+            <span>m</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            &nbsp;
+            <span>G</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+          </h1>
+          <div class="decorative-line"></div>
+          <p class="subtitle">Hover to discover the magic</p>
+        </div>
+      </section>
+      
+      <div class="footer-container">
+        <div class="footer-content">
+          <h1 class="footer-title">ARIA</h1>
+          <p>Relax. We got you.</p>
+          <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#work">Work</a>
+            <a href="#about">About</a>
+            <a href="#services">Services & Models</a>
+            <a href="#contact">Contact</a>
+          </div>
+          <button class="footer-button">Take a Beat</button>
+          <div class="footer-contact">
+            <p>San Diego—California • Paris—France</p>
+            <p>Aria.bakar.com | ©2023 Legal</p>
+          </div>
+        </div>
+      </div>
+      
+    <script src="script.js"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+</body>
+</html>
